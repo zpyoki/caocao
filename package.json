@@ -4,7 +4,7 @@
   "description": "You know, for silence",
   "version": "0.2.0",
   "publisher": "pixiu",
-  "repository": "https://github.com/zpyoki/vscode",
+  "repository": "https://github.com/zpyoki/caocao",
   "license": "MIT",
   "engines": {
     "vscode": "^1.81.0"
@@ -26,7 +26,7 @@
     "commands": [
       {
         "command": "caocao.hi",
-        "title": "Hi",
+        "title": "Hi 曹操",
         "icon": {
           "light": "logof.png",
           "dark": "logof.png"
