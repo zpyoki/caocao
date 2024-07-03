@@ -1,0 +1,37 @@
+{
+  "曹操/egg/controller": {
+      "prefix": ["px", "egg", "eggjs", "ec"],
+      "body": [
+        "const Controller = require('egg').Controller",
+        "",
+        "class ${TM_FILENAME_BASE/([a-zA-Z0-9])([a-zA-Z0-9]+)/${1:/upcase}${2}/g} extends Controller {",
+        "  async index () {",
+        "    const { ctx } = this",
+        "    ctx.body = 'summer time gone!'",
+        "  }",
+        "}// END",
+        "",
+        "module.exports = ${TM_FILENAME_BASE/([a-zA-Z0-9])([a-zA-Z0-9]+)/${1:/upcase}${2}/g}",
+        ""
+      ],
+      "description": "曹操 eggjs 模板"
+  },
+  "曹操/egg/service": {
+      "prefix": ["px", "egg", "eggjs", "es"],
+      "body": [
+        "const Service = require('egg').Service",
+        "",
+        "class ${TM_FILENAME_BASE/([a-zA-Z0-9])([a-zA-Z0-9]+)/${1:/upcase}${2}/g} extends Service {",
+        "  async index () {",
+        "    const { app } = this",
+        "    const result = await app.mysql.query('select * from ${TM_FILENAME_BASE}')",
+        "    return result",
+        "  }",
+        "}// END",
+        "",
+        "module.exports = ${TM_FILENAME_BASE/([a-zA-Z0-9])([a-zA-Z0-9]+)/${1:/upcase}${2}/g}",
+        ""
+      ],
+      "description": "曹操 eggjs 模板"
+  }
+}

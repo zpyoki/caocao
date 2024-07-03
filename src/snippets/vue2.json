@@ -1,5 +1,5 @@
 {
-  "px/vue2": {
+  "曹操/vue2": {
       "prefix": ["px", "vue", "vue2", "v2"],
       "body": [
         "<template>",
@@ -17,6 +17,6 @@
         "</style>",
         ""
       ],
-      "description": "px vue2 模板"
+      "description": "曹操 vue2 模板"
   }
 }

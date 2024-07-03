@@ -1,5 +1,5 @@
 {
-  "px/vue3": {
+  "曹操/vue3": {
       "prefix": ["px", "vue", "vue3", "v3"],
       "body": [
         "<script setup>",
@@ -19,6 +19,6 @@
         "</style>",
         ""
       ],
-      "description": "px vue3 模板"
+      "description": "曹操 vue3 模板"
   }
 }
