@@ -1,0 +1,22 @@
+{
+  "px/vue2": {
+      "prefix": ["px", "vue", "vue2", "v2"],
+      "body": [
+        "<template>",
+        "  <div>${TM_FILENAME_BASE}</div>",
+        "</template>",
+        "",
+        "<script>",
+        "export default ({",
+        "  name: '${TM_FILENAME_BASE/([a-zA-Z0-9])([a-zA-Z0-9]+)/${1:/upcase}${2}/g}'",
+        "})",
+        "</script>",
+        "",
+        "<style scoped>",
+        "",
+        "</style>",
+        ""
+      ],
+      "description": "px vue2 模板"
+  }
+}

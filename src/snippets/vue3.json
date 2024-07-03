@@ -1,0 +1,24 @@
+{
+  "px/vue3": {
+      "prefix": ["px", "vue", "vue3", "v3"],
+      "body": [
+        "<script setup>",
+        "import { onMounted } from 'vue'",
+        "",
+        "onMounted(() => {",
+        "  ",
+        "})",
+        "</script>",
+        "",
+        "<template>",
+        "  <div>${TM_FILENAME_BASE}</div>",
+        "</template>",
+        "",
+        "<style scoped>",
+        "",
+        "</style>",
+        ""
+      ],
+      "description": "px vue3 模板"
+  }
+}
